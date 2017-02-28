@@ -3,6 +3,13 @@ body {
 }
 
 #container{
-  background-color:blue;color:white;
+  background-color:blue;color:black;
                                margin:25px;padding:25px;border-radius:25px;
+}
+
+#flashcard input[type=button]{
+   background-color:pink;
+   color:black;
+   padding:15px;
+   font-size:15px;
 }
