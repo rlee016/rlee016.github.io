@@ -2,6 +2,7 @@
   <head>
     <title>Flash Card App</title>
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="flashcard.js"></script>
   </head>
   <body>
     <div id="container">
@@ -12,7 +13,7 @@
       </p>
       <div id="flashcard">
         <p>
-          <input type="button" value="New Card" onclick="gitCard()" />
+          <input type="button" value="New Card" onclick="getCard()" />
         </p>
         <p id="operand1">
           0
@@ -20,14 +21,14 @@
         <p id="operator">
           +
         </p>
-        <p id="operan2">
+        <p id="operand2">
           0
         </p>
         <p>
           __________
         </p>
         <p id="answer">
-          0
+          <input type="text" value="0" id="answerInput"/>
         </p>
         <p>
          <input type="button" value="Check Answer" onclick="checkAnswer()" />
