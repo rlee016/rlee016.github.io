@@ -17,4 +17,19 @@ body {
    border-radius:25px;
    font-size:15px;
 }
+#animal{
+  background-color:grey;color:white;
+                              margin:50px;padding:50px;border-radius:50px;
+}
+#gallery input[type=button]{
+  background-color:pink;
+  color:red;
+  font-weight:bolder;
+  padding:10px;
+  margin:5px;
+  font-size:20px;
+}
 
+#gallery img{
+  Width:400px;
+}
