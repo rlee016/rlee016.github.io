@@ -1,20 +1,28 @@
 <html>
   <head>
+     <!-where the information abou the document is placed->
     <title>Gallery</title>
+     <!-the title of the document->
     <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <!-the thing that connects the code things->
     <script src="gallery.js"></script>
   </head>
   <body>
+     <!-writing that is visible in the webpage->
     <div id="container">
+       <!-a section or divison in the document->
     <p id="navigation">
+      <!-paragraph->
   <a href="index.html"> Home </a> | 
   <a href="aboutme.html">About Me</a> |
   <a href="project.html"> Project</a> 
+      <!-connecting links->
       </p>
       <div id="gallery">
         <input type="button" value="<--" onclick="goLeft()" />
         <img id="pic" src="http://orig11.deviantart.net/1bd9/f/2012/309/8/7/87a42216087675287a5f51aeb51e84c4-d5k1e7d.jpg" />
         <input type="button" value="-->" onclick="goRight()" />
+        <!-reference elements in js->
       </div>
     </div>
   </body>
