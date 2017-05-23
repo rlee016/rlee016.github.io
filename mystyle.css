@@ -14,8 +14,8 @@ body {
 #flashcard input[type=button]{
    background-color:pink;
    width:200px;
-   margin-left:auto;
-   margin-right:auto;
+   margin-left:400;
+   margin-right:400;
    color:black;
    padding:15px;
    border-radius:25px;
