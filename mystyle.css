@@ -9,6 +9,7 @@ body {
   margin-left:200px;
   font-size:17;
   border-radius:10px;
+  text-align:right;
 }
 
 #flashcard input[type=button]{
