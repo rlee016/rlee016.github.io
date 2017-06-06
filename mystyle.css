@@ -15,8 +15,6 @@ body {
 #flashcard input[type=button]{
    background-color:pink;
    width:200px;
-   margin-left:400;
-   margin-right:400;
    color:black;
    padding:15px;
    border-radius:25px;
@@ -28,7 +26,7 @@ body {
 }
 #gallery input[type=button]{
   background-color:grey;
-  color:black;
+  color:white;
   font-weight:bolder;
   padding:10px;
   margin:5px;
